@@ -14,3 +14,7 @@ body {
 .item {
   text-align: center;
 }
+
+.webbook {
+  color: rgba(192, 85, 174, 0.74);
+}
