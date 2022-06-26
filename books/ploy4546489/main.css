@@ -1,0 +1,63 @@
+h1,h2{
+    color: white;
+    text-align:center;
+    display: flex;
+    margin: 0;
+    font-family: 'Quicksand';
+    font-size: 28px;
+}
+
+.container {
+    width: 2180px;
+    height: 5px;
+    margin: 0 auto ;
+    background-color: black;
+    padding: 2rem;
+}
+
+.cover {
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.container1 {
+    width: 2180px;
+    height: 5px;
+    margin: 0 auto ;
+    background-color: black;
+    padding: 2rem;
+}
+.container2 {
+    width: 2180px;
+    height: 5px;
+    margin: 0 auto ;
+    background-color: black;
+    padding: 2rem;
+}
+.sub1{
+    float:left;
+    text-align:center;
+    padding-right: 150px;
+    padding-left: 30px;
+    font-family: 'Quicksand';
+    font-size: 20px;
+}
+.sub2{
+    float:left;
+    text-align:center;
+    padding-right: 200px;
+    padding-left: 30px;
+    font-family: 'Quicksand';
+    font-size: 20px;
+}
+.sub3{
+    float:left;
+    text-align:center;
+    padding-right: 300px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-family: 'Quicksand';
+    font-size: 20px;
+}
