@@ -1,0 +1,101 @@
+body {
+    font-family: Roboto,Helvetica,sans-serif;
+    font-size: 14px; 
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+.navbar{
+    position: relative;
+    background: #403042;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.user-nav{
+    margin-right: auto;
+    margin-left: auto;
+    color: #fff;
+    line-height: 44px;
+    max-width: 1440px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+}
+
+.left-nav{
+    max-width: 267px;
+    padding-left: 15px;
+    color: #d9d6d9;
+}
+
+.home{
+    max-width: 40px;
+    text-align: center;
+    border-right: 1px solid #4c394e;
+}
+
+.envelope{
+    max-width: 117px;
+    text-align: center;
+    border-right: 1px solid #4c394e;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.info{
+    max-width: 79px;
+    text-align: center;
+    border-right: 1px solid #4c394e;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.middle-nav{
+    max-width: 315px;
+    text-align: center;
+}
+
+.free-delivery{
+    text-transform: uppercase;
+    background-image: url(https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.31/img/free-delivery-single-bg.png);
+    text-align: center;
+}
+
+.right-nav{
+    max-width: 370px;
+    color: #d9d6d9;
+}
+
+.compass{
+    max-width: 129px;
+    text-align: center;
+    border-right: 1px solid #4c394e;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.heart{
+    max-width: 100px;
+    text-align: center;
+    border-right: 1px solid #4c394e;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.user{
+    max-width: 125px;
+    text-align: center;
+    border-right: 1px solid #4c394e;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.home:hover , .envelope:hover , .info:hover , .compass:hover , .heart:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
