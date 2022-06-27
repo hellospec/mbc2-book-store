@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+}
+
+body{
+  background-color: #f7f7f7;
+  color: #666;
+  display: flex;/*ตรงกลาง*/
+  flex-direction: column;
+  align-items: center;/*กลางจอ*/
+  justify-content: center;
+  margin: 0;
+}
+h1{
+  text-align: left;
+  color: #333;
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 10px;
+  
+}
+.container{
+  margin: 30px auto;
+  width: 1000px;
+ 
+}
+.item{
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+  padding: 20px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+tools{
+  width: 500px;
+  float: right;
+  text-align: left;
+  height: 25px;
+  margin-right: 500px;
+
+}
+.book-img{
+ float: right;
+ margin: 5px 50px 0px 15px;
+}
+svg{
+  width: 22px;
+  height: 20px;
+  margin: 0 2px 0 2px;
+}
+a{
+  color: #666;
+}
