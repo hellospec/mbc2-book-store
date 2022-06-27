@@ -1,3 +1,9 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 .grid-container {
   display: grid;
   padding: 1em;
@@ -23,11 +29,13 @@ span {
 .stars {
   float: left;
   padding-right: 3%;
+
 }
 
 .share {
   float: left;
   font-weight: bold;
+  
 }
 
 /* Style all font awesome icons */
