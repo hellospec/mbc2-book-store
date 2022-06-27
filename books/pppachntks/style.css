@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cinzel:wght@500&family=Roboto&display=swap');
+h1 {
+    color: rgb(173, 30, 5);
+    text-align: center;
+}
+
+.cover {
+    text-align: center;
+    display: block;
+    margin: 0% 43%;
+    width: 10%;
+}
+
+img {
+    width: 20%;
+    margin-top: 27px;
+    width: 150%;
+}
+
+.content {
+    margin: auto;
+    border: 1px solid;
+    width: 52%;
+}
+
+.a {
+    margin-left: 10px;
+}
+
+.topic {
+    margin-left: 24%;
+    margin-bottom: 20px;
+    color: rgb(65, 65, 65);
+}
+
+.text {
+    margin-top: 10px;
+}
+
+.icon {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.home {
+    margin-top: 20px;
+}
+
+.button {
+    text-align: center;
+    background-color: rgb(111, 4, 0);
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+
+.button:hover {
+    background-color: gray;
+    color: rgb(111, 4, 0);
+}
+
+.center {
+    text-align: center;
+}
+
+.caveat {
+    font-family: 'Caveat', cursive;
+}
+
+p {
+    font-size: 120%;
+}
+
+.cinzel {
+    font-family: 'Cinzel', serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
