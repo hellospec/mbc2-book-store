@@ -1,0 +1,39 @@
+h1 {
+    color: black;
+  }
+  
+  .padding {
+    background-color: white;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+  }
+  
+  .parent {
+    display: grid;
+    grid-template-columns: minmax(150px, 350px) 1fr;
+  }
+  
+  .parent h2 {
+    text-align: left;
+  }
+  
+  .parent h3 {
+    text-align: left;
+  }
+
+font {
+  font-size: 1.3rem;
+  margin-right: 20px;
+}
+
+.margin-icon {
+  margin-right: 20px;
+}
+
+.label-size {
+  font-weight: bold;
+}
+
+.span-margin {
+  margin-left: 20px;
+}
