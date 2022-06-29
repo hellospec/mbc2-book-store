@@ -1,0 +1,118 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  display: grid;
+  padding: 1em;
+  font-size: smaller;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.item-img {
+  text-align: right;
+  padding: 1.5em 2em;
+}
+
+.textbox {
+  width: 70%;
+  color: rgb(48, 48, 48);
+}
+
+
+
+.share {
+  float: left;
+  font-weight: bold;
+  
+}
+
+/* Style all font awesome icons */
+
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.5;
+}
+
+
+.fa-google {
+  margin: 2% 0 0 2%;
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: hsl(0, 0%, 94%);
+  color: #999999;
+}
+
+.fa-facebook {
+  margin: 2% 0 0 2%;
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: hsl(0, 0%, 94%);
+  color: #999999;
+}
+
+.fa-twitter {
+  margin: 2% 0 0 2%;
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: hsl(0, 0%, 94%);
+  color: #999999;
+}
+
+.fa-pinterest {
+  margin: 2% 0 0 2%;
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: hsl(0, 0%, 94%);
+  color: #999999;
+}
+
+.button {
+  float: right;
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button5:hover {
+  background-color: #555555;
+  color: white;
+}
+.checked {
+  float: left;
+  color: rgb(255, 149, 0);
+}
