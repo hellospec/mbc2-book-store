@@ -77,7 +77,8 @@ span {
 }
 
 .button {
-  float: right;
+  position: relative;
+  right: 0;
   background-color: black; /* Green */
   border: none;
   color: white;
@@ -100,3 +101,4 @@ span {
 .button5:hover {
   background-color: #555555;
   color: white;
+}
